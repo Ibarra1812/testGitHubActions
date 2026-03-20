@@ -1,0 +1,10 @@
+.gitignore
+.prettierrc
+.prettierignore
+eslint.config.mjs
+.github
+
+.git
+node_modules
+dist
+.env

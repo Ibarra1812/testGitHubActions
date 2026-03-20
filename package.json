@@ -3,6 +3,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
+        "docker:build": "docker build -t githubactions .",
+        "docker:run": "docker run -p 8080:8080 --init --rm githubactions",
         "format": "npx prettier . --write",
         "format:check": "npx prettier . --check",
         "lint": "npx eslint .",
